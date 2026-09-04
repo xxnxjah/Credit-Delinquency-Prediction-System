@@ -1,0 +1,51 @@
+#Virtual Environment
+venv/
+.venv/
+env/
+.env/
+
+#Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+#Model files (large)
+models/*.pkl
+models/*.joblib
+*.pkl
+*.joblib
+
+#Data files (sensitive)
+data/raw/*.xlsx
+data/processed/*.csv
+*.xlsx
+*.csv
+
+#IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+#Logs
+*.log
+monitoring/*.html
+monitoring/*.json
+
+#Coverage reports
+.coverage
+htmlcov/
+coverage.xml
+
+#Jupyter notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+#Docker
+*.pid
+*.pid.lock
+
+#OS
+.DS_Store
+Thumbs.db
