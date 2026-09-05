@@ -2,9 +2,8 @@
 venv/
 .venv/
 env/
-.env/
 
-#Python Cache
+#Python cache
 __pycache__/
 *.pyc
 *.pyo
@@ -33,12 +32,12 @@ data/processed/*.csv
 monitoring/*.html
 monitoring/*.json
 
-#Coverage reports
+#Coverage
 .coverage
 htmlcov/
 coverage.xml
 
-#Jupyter notebooks
+#Jupyter
 .ipynb_checkpoints/
 *.ipynb
 
@@ -49,3 +48,6 @@ coverage.xml
 #OS
 .DS_Store
 Thumbs.db
+
+#MLflow
+mlflow/

@@ -1,0 +1,56 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Model files (large)
+models/*.pkl
+models/*.joblib
+*.pkl
+*.joblib
+
+# Data files (sensitive)
+data/raw/*.xlsx
+data/processed/*.csv
+*.xlsx
+*.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+monitoring/*.html
+monitoring/*.json
+
+# Coverage
+.coverage
+htmlcov/
+coverage.xml
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Git
+.git/
+.gitignore
+
+# OS
+.DS_Store
+Thumbs.db
+
+# MLflow
+mlflow/
+
+# Environment variables
+.env
