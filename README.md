@@ -1,8 +1,9 @@
 # Credit Delinquency Prediction System
 
-##Overview
+## Overview
 This project predicts the likelihood of a customer becoming delinquent on their credit obligations using machine learning. It includes a trained XGBoost model, FastAPI for real-time predictions, and Docker for containerization.
-##Features
+
+## Features
 - XGBoost model with 0.81 AUC
 - SMOTE for class imbalance handling
 - FastAPI for real-time predictions
@@ -10,7 +11,7 @@ This project predicts the likelihood of a customer becoming delinquent on their 
 - MLflow for experiment tracking
 - Evidently AI for monitoring
 
-##Teck Stack
+## Teck Stack
 - **Language:** Python 3.12+
 - **Framework:** FastAPI
 - **ML:** XGBoost, scikit-learn
