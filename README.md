@@ -20,7 +20,7 @@ This project predicts the likelihood of a customer becoming delinquent on their 
 
 ## Quick Start
 
-### 1. CLone the repository
+### 1. Clone the repository
 ```bash
 git clone https://github.com/xxnxjah/credit-delinquency-prediction.git
 cd credit_delinquency_model
